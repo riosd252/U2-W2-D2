@@ -103,7 +103,12 @@ EXTRAS
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="./assets/img/kisspng-airplane-air-travel-travel-agency-5ac2ff68a7f640.217567001522728808688.png"
+            style="width: 60px"
+            alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -121,16 +126,18 @@ EXTRAS
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Saldi</a>
+              <a class="nav-link active" href="#saldi">Saldi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Welcome Summer</a>
+              <a class="nav-link active" href="#welcomeSummer"
+                >Welcome Summer</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Last Minute</a>
+              <a class="nav-link active" href="#lastMinute">Last Minute</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Recensioni</a>
+              <a class="nav-link active" href="#recensioni">Recensioni</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -140,21 +147,17 @@ EXTRAS
               placeholder="Cerca posti da sogno"
               aria-label="Search"
             />
-            <button class="btn btn-outline-danger" type="submit">Search</button>
+            <button class="btn btn-outline-danger" type="submit">Cerca</button>
           </form>
         </div>
       </div>
     </nav>
     <div
-      class="container my-5 p-5 text-center text-lg-start rounded bg-body-tertiary"
+      class="container my-5 p-5 text-center text-lg-start rounded bg-body-tertiary shadow"
     >
       <div class="col-12 border-bottom pb-2 mb-2">
-        <h1 class="display-1 text-secondary d-inline-block">
-          ViaggImpossible -
-        </h1>
-        <p class="d-inline-block fs-5 align-text-bottom">
-          Vivi l'impossibile. Oggi.
-        </p>
+        <h1 class="display-1 text-secondary">Around The Globe</h1>
+        <p class="fs-4 text-secondary">Ieri un sogno, oggi realtà.</p>
       </div>
       <div class="col-12">
         <p class="text-secondary mb-4 fs-4 fst-italic fw-semibold">
@@ -168,7 +171,7 @@ EXTRAS
       </div>
     </div>
     <div class="container d-flex justify-content-between align-items-start">
-      <div><p class="fw-bold">Saldi</p></div>
+      <div id="saldi"><p class="fw-bold fs-4">Saldi</p></div>
       <div>
         <p
           class="text-info text-end"
@@ -180,80 +183,388 @@ EXTRAS
         >
           Nascondi sezione
         </p>
-        <div class="collapse show" id="collapseOne">
-          <div class="row gx-1 gx-md-2 gx-lg-4">
-            <div class="col-6 col-md-4 col-lg-3">
-              <div class="card mb-2 border border-info">
-                <img
-                  src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info">Go somewhere</a>
-                </div>
+      </div>
+    </div>
+    <div class="container mb-4">
+      <div class="collapse show" id="collapseOne">
+        <div class="row gx-1 gx-md-2 gx-lg-4">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card mb-sm-1 mb-md-0 border border-info">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
               </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3">
-              <div class="card mb-2 border border-info">
-                <img
-                  src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info">Go somewhere</a>
-                </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card mb-sm-1 mb-md-0 border border-info">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
               </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3">
-              <div class="card mb-2 border border-info">
-                <img
-                  src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info">Go somewhere</a>
-                </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="card mb-sm-1 mb-md-0 border border-info">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
               </div>
             </div>
-            <div class="col-6 col-lg-3">
-              <div class="card d-md-none d-lg-block mb-2 border border-info">
-                <img
-                  src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-info">Go somewhere</a>
-                </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="card d-md-none d-lg-block border border-info">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="container d-flex justify-content-between align-items-start">
+      <div id="welcomeSummer"><p class="fw-bold fs-4">Welcome Summer</p></div>
+      <div>
+        <p
+          class="text-info text-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          Nascondi sezione
+        </p>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div class="collapse show" id="collapseTwo">
+        <div class="row gx-4">
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card mb-4 shadow">
+              <img
+                src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="..."
+                style="height: 300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-info">Dimmi di più</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div>
+        <p class="fw-bold fs-4">Offerta del giorno</p>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            class="w-100 rounded shadow"
+          />
+        </div>
+        <div class="col-6">
+          <h1 class="display-1 text-black">
+            Fushifaru <br />
+            Maldives
+          </h1>
+          <p class="fs-5 fw-semibold text-secondary">15.01.2021-31.01.2021</p>
+          <p class="fs-3 text-secondary">
+            Ville a partire da 500€,<br />
+            non fartele sfuggire!
+          </p>
+          <button class="btn btn-dark rounded-pill fw-bold">
+            Portamici subito!
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div id="lastMinute"><p class="fw-bold fs-4">Last Minute</p></div>
+      <div class="row gx-4">
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+        <div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+          <img
+            src="https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?auto=format&fit=crop&q=80&w=1936&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            style="width: 100%"
+            class="rounded shadow"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="text-center" id="recensioni">
+        <p class="fw-bold fs-4">Dicono di noi</p>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="row justify-content-between">
+            <div class="col-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="4em"
+                style="fill: gray"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"
+                />
+              </svg>
+            </div>
+            <div class="col-10 col-lg-11">
+              <p class="fw-bold">Username</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                optio nihil autem minus cumque corporis non laboriosam,
+                recusandae architecto accusantium mollitia deleniti fuga
+                excepturi consequuntur illo voluptates est quibusdam aspernatur?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-between">
+            <div class="col-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="4em"
+                style="fill: gray"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"
+                />
+              </svg>
+            </div>
+            <div class="col-10 col-lg-11">
+              <p class="fw-bold">Username</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                optio nihil autem minus cumque corporis non laboriosam,
+                recusandae architecto accusantium mollitia deleniti fuga
+                excepturi consequuntur illo voluptates est quibusdam aspernatur?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row justify-content-between">
+            <div class="col-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="4em"
+                style="fill: gray"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"
+                />
+              </svg>
+            </div>
+            <div class="col-10 col-lg-11">
+              <p class="fw-bold">Username</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                optio nihil autem minus cumque corporis non laboriosam,
+                recusandae architecto accusantium mollitia deleniti fuga
+                excepturi consequuntur illo voluptates est quibusdam aspernatur?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="w-100 text-center mt-5 bg-dark p-5">
+      <button class="btn btn-outline-secondary">Contattaci</button>
+      <p class="text-white mt-4">
+        &#169; 2023 Around The Globe Travel LTD. All Rights Reserved.
+      </p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
